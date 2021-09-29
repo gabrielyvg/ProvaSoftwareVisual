@@ -1,5 +1,5 @@
 ####
-POST https://localhost:5001/api/automovel/create
+POST http://localhost:5000/api/automovel/create
 Content-Type: application/json
 
 {
@@ -8,4 +8,4 @@ Content-Type: application/json
 }
 
 ####
-GET https://localhost:5001/api/automovel/list
+GET http://localhost:5000/api/automovel/list
